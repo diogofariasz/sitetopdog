@@ -84,6 +84,16 @@ main {
   height: 30rem;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.menu .title {
+  text-align: center;
+}
+
 .cards {
   display: flex;
   flex-direction: column;
