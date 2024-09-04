@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --background: #252525;
+  --red: #A12917;
+  --dark-red: rgb(126, 33, 19);
+  --translucent-red: rgba(126, 33, 19, .25);
+  --text: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 10rem;
+  gap: 3rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  background-color: var(--red);
+  border-radius: 50px;
+}
+
+header h1 {
+  font-size: 70px; 
+}
+
+header img {
+  height: 15rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  max-width: 30rem;
+  padding: 2rem 3rem;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  background-color: var(--red);
+}
+
+.desc h2 {
+  font-size: 31px;
+}
+
+.desc button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: var(--dark-red);
+  transition: all 500ms;
+}
+
+.desc button:hover {
+  scale: 1.1;
+}
+
+.hero img {
+  height: 30rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.menu .title {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: var(--translucent-red);
+  padding: 3rem;
+  border-radius: 50px;
+}
+
+.cards h2 {
+  padding-bottom: .5rem;
+  border-bottom: var(--red) solid 3px;
+}
+
+.cards ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+  justify-content: start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card span {
+  margin-top: -2rem;
+  font-size: xx-large;
+}
+
+.card:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  max-width: 20rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--red);
+  border-radius: 50px;
+  transition: all 500ms;
+}
+
+.card img {
+  height: 18rem;
+  width: 18rem;
+}
+
+footer {
+  padding: 3rem;
+  border-radius: 50px;
+  background-color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  padding-left: 1rem;
+}
