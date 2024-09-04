@@ -148,6 +148,32 @@ footer ul {
   transition: all 500ms;
 }
 
+.exit {
+  position: fixed;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--red);
+  left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exit {
+  transition: all 500ms;
+}
+
+.exit:hover {
+  scale: 1.1;
+}
+
+.exit img {
+  height: 1.5rem;
+  color: white;
+}
+
 .desc button:hover {
   scale: 1.1;
 }
