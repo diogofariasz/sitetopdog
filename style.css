@@ -2,9 +2,9 @@
 
 :root {
   --background: #252525;
-  --red: #FF3131;
-  --dark-red: #BA1818;
-  --translucent-red: rgba(255, 50, 50, .25);
+  --red: #A12917;
+  --dark-red: rgb(126, 33, 19);
+  --translucent-red: rgba(126, 33, 19, .25);
   --text: white;
 }
 
@@ -111,10 +111,11 @@ main {
 .cards ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 4rem;
   margin-top: 2rem;
-  justify-content: space-between;
+  justify-content: start;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .card span {
